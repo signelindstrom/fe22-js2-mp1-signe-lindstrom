@@ -204,7 +204,7 @@ function displayScore(scores) {
 
     const scoreboardTitle = document.createElement('div');
     div.append(scoreboardTitle);
-    scoreboardTitle.innerText = 'SCOREBOARD';
+    scoreboardTitle.innerText = 'HIGHSCORE';
 
     scores.forEach(element => {
         const { username, score } = element;
