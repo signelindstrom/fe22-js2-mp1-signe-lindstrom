@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    padding: 20px;
+    background-color: lavender;
+}
+
+div {
+    padding: 10px;
+}
+
+div>button {
+    margin: 10px;
+}
+
+p {
+    height: 1rem;
+    font-style: italic;
+    padding-top: 15px;
+    font-size: large;
+}
+
+h1 {
+    height: 3rem;
+    font-family: 'Knewave';
+}
+
+h2 {
+    height: 3rem;
+    font-style: italic;
+}
+
+label {
+    font-style: italic;
+}
+
+button {
+    background-color: lavender;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#scoreDiv {
+    background-color: aliceblue;
+    width: 20rem;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    color: gray;
+}
+
+#scoreDiv>div {
+    border-bottom: gray 2px solid;
+}
+
+div:first-child {
+    font-style: italic;
+}

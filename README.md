@@ -1,1 +1,1 @@
-# fe22-js2-mp1-signe-lindstrom
+# fe22-js1-mp2-signe-lindstrom
