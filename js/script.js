@@ -73,7 +73,7 @@ function game(event) {
     const points = document.querySelector('#pointsCounter');
     points.innerText = `${userPoints} - ${computerPoints}`;
 
-    ifComputerScores(computerPoints);
+    ifComputerScores(computerPoints, userPoints);
 
 }
 
@@ -92,11 +92,11 @@ function pointsCounter(computerPicks, userPicks) {
 
 
 // when computer scores, the game ends
-function ifComputerScores(computerPoints) {
+function ifComputerScores(computerPoints, userPoints) {
 
     if (computerPoints == 1) {
         const winAnnouncment = document.querySelector('#winAnnouncement');
-        winAnnouncment.innerText = 'game over!';
+        winAnnouncment.innerText = `game over! du fick ${userPoints} poäng!`;
 
         btnRock.disabled = true;
         btnScissor.disabled = true;
