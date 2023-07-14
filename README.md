@@ -1,1 +1,1 @@
-# fe22-js1-mp2-signe-lindstrom
+Sten, sax, påse game with highscore board. Highscore board made with Firebase.
